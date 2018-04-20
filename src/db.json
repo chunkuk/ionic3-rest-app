@@ -1,5 +1,5 @@
 {
-  "products":[
+  "products": [
     {
       "id": 1,
       "name": "컴퓨터",
@@ -11,6 +11,18 @@
       "name": "자동차",
       "cost": 9000,
       "quantity": 50
+    },
+    {
+      "name": "aaaa",
+      "cost": "1",
+      "quantity": "2",
+      "id": 10
+    },
+    {
+      "name": "휴대폰",
+      "cost": "7000",
+      "quantity": "16",
+      "id": 11
     }
   ],
   "customers": [

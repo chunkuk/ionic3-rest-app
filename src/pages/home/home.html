@@ -7,6 +7,9 @@
 </ion-header>
 
 <ion-content padding>
+  <button ion-button full icon-right (click)="createProduct()">
+    상품등록 <ion-icon name="create"></ion-icon>
+  </button>
   <ion-list>
     <ion-list-header>상품 목록</ion-list-header>
     <ion-item *ngFor="let product of products | async | orderBy:'name'" (click)="navToProductDetail(product)">

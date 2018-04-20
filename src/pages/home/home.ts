@@ -23,6 +23,10 @@ export class HomePage {
     this.products = this.restProvider.getProducts();
   }
 
+  createProduct() {
+    this.navCtrl.push("ProductPage", {product: {}});
+  }
+
   navToProductDetail(product: Product) {
     this.navCtrl.push("ProductPage", {product: product});
   }
